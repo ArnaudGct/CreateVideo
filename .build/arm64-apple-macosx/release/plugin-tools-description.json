@@ -1,0 +1,563 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.App-arm64-apple-macosx-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/sources",
+      "importPath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "App",
+      "moduleOutputPath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/Modules/App.swiftmodule",
+      "objects" : [
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoApp.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileNode.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/GithubRelease.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectConfiguration.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectParameter.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/Template.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileManagerService.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PreferencesService.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEngineService.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateManager.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoViewModel.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FinderClickableRow.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PathRowView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ConfigurationZoneView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/DashboardView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ExecutionZoneView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEditorView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateListView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "16",
+        "-serialize-diagnostics",
+        "-O",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "App_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "createvideo"
+      ],
+      "outputFileMapPath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/GithubRelease.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectParameter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/Template.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileManagerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PreferencesService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEngineService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FinderClickableRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PathRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ConfigurationZoneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/DashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ExecutionZoneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/Modules/App.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift"
+      ],
+      "tempsPath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "App" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "App",
+      "-package-name",
+      "createvideo",
+      "-c",
+      "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift",
+      "-I",
+      "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "16",
+      "-serialize-diagnostics",
+      "-O",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "App_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "createvideo",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "App" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/sources"
+    },
+    "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ConfigurationZoneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/CreateVideoViewModel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/DashboardView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ExecutionZoneView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileManagerService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FileNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/FinderClickableRow.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/GithubRelease.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PathRowView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/PreferencesService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/ProjectParameter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/Template.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEditorView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateEngineService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/TemplateListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.product/Objects.LinkFileList"
+    },
+    "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
