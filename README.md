@@ -3,12 +3,15 @@
 Application macOS permettant de générer automatiquement des arborescences de projets vidéo, avec des modèles configurables.
 
 ## Lancer l'application en développement
+
 Le projet utilise Swift Package Manager. Vous pouvez le lancer via la commande :
+
 ```bash
 ./build_and_run.sh
 ```
 
 ## Créer une Release (Mise à jour & DMG)
+
 Le projet intègre un système de mise à jour automatique. Pour diffuser une nouvelle version :
 
 1. Assurez-vous d'avoir commité vos derniers changements.
