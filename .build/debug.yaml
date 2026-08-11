@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "App-arm64-apple-macosx-debug.exe": ["<App-arm64-apple-macosx-debug.exe>"]
+  "App-arm64-apple-macosx-debug.module": ["<App-arm64-apple-macosx-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<App-arm64-apple-macosx-debug.exe>","<App-arm64-apple-macosx-debug.module>"]
+  "test": ["<App-arm64-apple-macosx-debug.exe>","<App-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/arnaudgct/Desktop/CreateVideo/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App":
+    is-mutated: true
+commands:
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App-entitlement.plist"]
+    description: "Write auxiliary file /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App-entitlement.plist"
+
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift","/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources"]
+    description: "Write auxiliary file /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources"
+
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList"
+
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<App-arm64-apple-macosx-debug.exe>":
+    tool: phony
+    inputs: ["<App-arm64-apple-macosx-debug.exe-CodeSigning>"]
+    outputs: ["<App-arm64-apple-macosx-debug.exe>"]
+
+  "<App-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule"]
+    outputs: ["<App-arm64-apple-macosx-debug.module>"]
+
+  "C.App-arm64-apple-macosx-debug.exe":
+    tool: shell
+    inputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/App"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug","-o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App","-module-name","App","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_App_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/usr/lib/swift-6.2/macosx","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g"]
+
+  "C.App-arm64-apple-macosx-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App-entitlement.plist"]
+    outputs: ["<App-arm64-apple-macosx-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/App"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App-entitlement.plist","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App"]
+
+  "C.App-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift","/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift","/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift","/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift","/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources"]
+    outputs: ["/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule"]
+    description: "Compiling Swift Module 'App' (16 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","App","-emit-dependencies","-emit-module","-emit-module-path","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule","-output-file-map","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/output-file-map.json","-incremental","-c","@/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources","-I","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j16","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","App_main","-swift-version","5","-I","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-L","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-plugin-path","/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","createvideo"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/arnaudgct/Desktop/CreateVideo/","/Users/arnaudgct/Desktop/CreateVideo/Package.swift","/Users/arnaudgct/Desktop/CreateVideo/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

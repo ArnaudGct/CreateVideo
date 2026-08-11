@@ -1,0 +1,117 @@
+{
+  "": {
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/primary.swiftdeps"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/ConfigurationZoneView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ConfigurationZoneView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift": {
+    "dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.d",
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.dia"
+  }
+}
