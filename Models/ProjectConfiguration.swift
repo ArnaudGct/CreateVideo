@@ -29,8 +29,8 @@ public struct ProjectConfiguration: Codable {
         var name = parts.joined(separator: separator)
         if name.isEmpty { name = "Nouveau_Projet" }
         
-        // Sanitize (Retirer les caractères interdits dans un nom de dossier macOS)
-        let invalidCharacters = CharacterSet(charactersIn: "\\/:*?\"<>|")
+        // Sanitize (Retirer les caractères interdits dans un nom de dossier macOS : : et /)
+        let invalidCharacters = CharacterSet(charactersIn: ":/")
         name = name.components(separatedBy: invalidCharacters).joined(separator: "-")
         
         return name

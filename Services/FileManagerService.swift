@@ -17,11 +17,17 @@ public class FileManagerService {
     }
     
     private func createDefaultTemplate(at root: URL) {
-        let defaultTemplate = root.appendingPathComponent("MotionDesign_Base")
-        try? fileManager.createDirectory(at: defaultTemplate, withIntermediateDirectories: true, attributes: nil)
-        try? fileManager.createDirectory(at: defaultTemplate.appendingPathComponent("01_Media"), withIntermediateDirectories: true, attributes: nil)
-        try? fileManager.createDirectory(at: defaultTemplate.appendingPathComponent("02_Projects"), withIntermediateDirectories: true, attributes: nil)
-        try? fileManager.createDirectory(at: defaultTemplate.appendingPathComponent("03_Exports"), withIntermediateDirectories: true, attributes: nil)
+        let templateName = "Template_Montage Vidéo"
+        let defaultTemplate = root.appendingPathComponent(templateName)
+        
+        if let resourceURL = Bundle.module.url(forResource: "Template_Montage_Video", withExtension: nil) {
+            try? fileManager.copyItem(at: resourceURL, to: defaultTemplate)
+        } else {
+            // Fallback (ne devrait normalement pas arriver si le bundle est correct)
+            try? fileManager.createDirectory(at: defaultTemplate, withIntermediateDirectories: true, attributes: nil)
+            try? fileManager.createDirectory(at: defaultTemplate.appendingPathComponent("1 - Rushs"), withIntermediateDirectories: true, attributes: nil)
+            try? fileManager.createDirectory(at: defaultTemplate.appendingPathComponent("2 - Médias"), withIntermediateDirectories: true, attributes: nil)
+        }
     }
     
     public func getTemplates() -> [Template] {

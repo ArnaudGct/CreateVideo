@@ -22,6 +22,9 @@ let package = Package(
                 "ViewModels",
                 "Views",
                 "CreateVideoApp.swift"
+            ],
+            resources: [
+                .copy("Resources/Template_Montage_Video")
             ]
         )
     ]

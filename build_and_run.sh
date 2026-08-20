@@ -16,6 +16,9 @@ mkdir -p "$MAC_OS"
 mkdir -p "$RESOURCES"
 
 cp "${BUILD_DIR}/App" "$MAC_OS/${APP_NAME}"
+if [ -d "${BUILD_DIR}/CreateVideo_App.bundle" ]; then
+    cp -R "${BUILD_DIR}/CreateVideo_App.bundle" "$RESOURCES/"
+fi
 
 if [ -f "AppIcon.icns" ]; then
     cp "AppIcon.icns" "$RESOURCES/AppIcon.icns"

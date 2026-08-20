@@ -6,6 +6,7 @@
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o
+/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/GithubRelease.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o
@@ -14,3 +15,6 @@
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o
 /Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o
+/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateManager.swift.o
+/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateSheetView.swift.o
+/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/resource_bundle_accessor.swift.o

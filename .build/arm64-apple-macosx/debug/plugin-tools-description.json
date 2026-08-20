@@ -3,7 +3,20 @@
 
   ],
   "copyCommands" : {
-
+    "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/CreateVideo_App.bundle/Template_Montage_Video" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Resources/Template_Montage_Video"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/CreateVideo_App.bundle/Template_Montage_Video"
+        }
+      ]
+    }
   },
   "explicitTargetDependencyImportCheckingMode" : {
     "none" : {
@@ -32,6 +45,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift"
         },
         {
@@ -53,6 +70,10 @@
         {
           "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift"
         },
         {
           "kind" : "file",
@@ -88,7 +109,19 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<App-arm64-apple-macosx-debug.module-resources>"
         },
         {
           "kind" : "file",
@@ -101,12 +134,14 @@
       "objects" : [
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoApp.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileNode.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/GithubRelease.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectParameter.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/Template.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FileManagerService.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PreferencesService.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateManager.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/CreateVideoViewModel.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/FinderClickableRow.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o",
@@ -114,7 +149,9 @@
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DashboardView.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ExecutionZoneView.swift.o",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEditorView.swift.o",
-        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o"
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateSheetView.swift.o",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/resource_bundle_accessor.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -129,7 +166,7 @@
         "-j16",
         "-DSWIFT_PACKAGE",
         "-DDEBUG",
-        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
         "-module-cache-path",
         "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/ModuleCache",
         "-parseable-output",
@@ -171,6 +208,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/GithubRelease.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/ProjectConfiguration.swift.o"
         },
         {
@@ -192,6 +233,10 @@
         {
           "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateEngineService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateManager.swift.o"
         },
         {
           "kind" : "file",
@@ -227,6 +272,14 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateSheetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules/App.swiftmodule"
         }
       ],
@@ -234,12 +287,14 @@
       "sources" : [
         "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift",
@@ -247,7 +302,9 @@
         "/Users/arnaudgct/Desktop/CreateVideo/Views/DashboardView.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift",
         "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift",
-        "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift"
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift",
+        "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DerivedSources/resource_bundle_accessor.swift"
       ],
       "tempsPath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build",
       "wholeModuleOptimization" : false
@@ -266,12 +323,14 @@
       "-c",
       "/Users/arnaudgct/Desktop/CreateVideo/CreateVideoApp.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Models/FileNode.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectParameter.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Models/Template.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Services/FileManagerService.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Services/PreferencesService.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/ViewModels/CreateVideoViewModel.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/FinderClickableRow.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Views/Components/PathRowView.swift",
@@ -280,6 +339,8 @@
       "/Users/arnaudgct/Desktop/CreateVideo/Views/ExecutionZoneView.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateEditorView.swift",
       "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift",
+      "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DerivedSources/resource_bundle_accessor.swift",
       "-I",
       "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -294,7 +355,7 @@
       "-j16",
       "-DSWIFT_PACKAGE",
       "-DDEBUG",
-      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
       "-module-cache-path",
       "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/ModuleCache",
       "-parseable-output",
@@ -375,6 +436,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/GithubRelease.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/Models/ProjectConfiguration.swift"
         },
         {
@@ -396,6 +461,10 @@
         {
           "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/TemplateEngineService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Services/UpdateManager.swift"
         },
         {
           "kind" : "file",
@@ -428,6 +497,14 @@
         {
           "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/TemplateListView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/Views/UpdateSheetView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/DerivedSources/resource_bundle_accessor.swift"
         }
       ],
       "outputFilePath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/sources"
@@ -473,6 +550,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/GithubRelease.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/PathRowView.swift.o"
         },
         {
@@ -502,6 +583,18 @@
         {
           "kind" : "file",
           "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/TemplateListView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/UpdateSheetView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.build/resource_bundle_accessor.swift.o"
         }
       ],
       "outputFilePath" : "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/debug/App.product/Objects.LinkFileList"
