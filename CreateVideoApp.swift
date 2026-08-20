@@ -18,9 +18,14 @@ struct CreateVideoApp: App {
             // Commandes clavier globales
             CommandGroup(replacing: .newItem) {
                 Button("Nouveau Projet") {
-                    // Si on veut reset l'UI via le ViewModel
+                    // Action
                 }
                 .keyboardShortcut("n", modifiers: [.command])
+            }
+            CommandGroup(after: .appInfo) {
+                Button("Rechercher des mises à jour...") {
+                    NotificationCenter.default.post(name: NSNotification.Name("CheckForUpdates"), object: nil)
+                }
             }
         }
     }

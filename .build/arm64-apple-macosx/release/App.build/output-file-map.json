@@ -117,5 +117,11 @@
     "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView~partial.swiftmodule",
     "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView.swiftdeps",
     "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/UpdateSheetView.dia"
+  },
+  "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/DerivedSources/resource_bundle_accessor.swift": {
+    "object": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/arnaudgct/Desktop/CreateVideo/.build/arm64-apple-macosx/release/App.build/resource_bundle_accessor.dia"
   }
 }

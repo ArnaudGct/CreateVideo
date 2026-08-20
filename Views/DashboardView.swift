@@ -15,5 +15,8 @@ public struct DashboardView: View {
             .sheet(isPresented: $updateManager.showUpdateSheet) {
                 UpdateSheetView(updateManager: updateManager)
             }
+            .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("CheckForUpdates"))) { _ in
+                updateManager.checkForUpdates(isManualCheck: true)
+            }
     }
 }
